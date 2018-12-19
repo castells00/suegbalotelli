@@ -53,7 +53,7 @@
 		}
 		if($text=="foto")
 		{
-			sendFoto($chatid,"foto.png",false,"la mia foto",$api);
+			sendFoto($chatId,"foto.png",false,"la mia foto",$api);
 		}
 		
 		
