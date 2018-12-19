@@ -51,6 +51,11 @@
 			$text="la data è:". date("d/m.y");	
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
+		if($text=="foto")
+		{
+			sendFoto($chatid,"foto.png",false,"la mia foto",$api);
+		}
+		
 		
 	
 		
