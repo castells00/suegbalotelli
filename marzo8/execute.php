@@ -57,12 +57,15 @@
 		}
 		if($text=="barz")
 		{
+			
 		$barz[0]="sai chi vince in una gara di corsa fra un tedesco e un ebreo ?il tedesco all'andata lo brucia in partenza, al ritorno l'ebreo perchè è gia caldo";
 		$barz[1]="sai cosa ci fa un negro su un albero, si scopa tua mamma";
 		$barz[2]="la sai la barzelletta del gay sull'albero? scendi che te la racconto";
 		$barz[3]="la differenza fra una torta e un ebreo? il tempo di cottura";
+			
 		$i= rand(0,3);
-		$parameters = array('chat_id' => $chatId, "text" => $text $barz[$i]);
+		$parameters =array('chat_id' => $chatId, "text" => $barz[$i]);
+		
 		}
 			
 			
