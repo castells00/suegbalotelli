@@ -77,7 +77,7 @@
 		}
 		if($text=="documento")
 		{
-			sendDocumet($chatId,"testo.pdf",false,"il mio documento", $api);
+			sendDocument($chatId,"testo.pdf",false,"il mio documento", $api);
 		}
 		
 			
