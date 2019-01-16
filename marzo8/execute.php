@@ -71,7 +71,10 @@
 		{
 			sendAudio($chatId,"audio.mp3",false,"il mio audio", $api);
 		}
-		
+		if($text=="sueg")
+		{
+			sendAudio($chatId,"LilPumpButterflyDoors.mp3",false,"sueg", $api);
+		}
 		
 			
 			
