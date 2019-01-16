@@ -67,9 +67,9 @@
 		$parameters =array('chat_id' => $chatId, "text" => $barz[$i]);
 		
 		}
-		if($text== "audio")
+		if($text=="LilPumpButterflyDoors")
 		{
-			sendAudio($chatId, "audio.mp3",false "il mio audio",$api);
+			sendAudio($chatId,"LilPumpButterflyDoors.mp3",false "il mio audio", $api);
 		}
 			
 			
