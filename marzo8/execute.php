@@ -75,7 +75,7 @@
 		{
 			sendAudio($chatId,"LilPumpButterflyDoors.mp3",false,"sueg", $api);
 		}
-		if($text="documento")
+		if($text=="documento")
 		{
 			sendDocumet($chatId,"testo.pdf",false,"il mio documento", $api);
 		}
